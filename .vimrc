@@ -33,3 +33,11 @@ inoremap <Up> <C-o>gk
 noremap! <F12> <ESC>:wa<CR>
 noremap <F12> <ESC>:wa<CR>
 
+"Map the Ctrl-Tab combo to change the active tab to the next tab
+noremap! <C-Tab> <ESC>gt<CR>
+noremap <C-Tab> <ESC>gt<CR>
+
+"Map the Ctrl-Shift-Tab combo to change the active tab to the previous tab
+noremap! <C-S-Tab> <ESC>gT<CR>
+noremap <C-S-Tab> <ESC>gT<CR>
+
