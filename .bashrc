@@ -118,6 +118,4 @@ fi
 
 PATH=$PATH:/home/sfehr/bin
 
-# Custom bash prompt via kirsle.net/wizards/ps1.html
-#export PS1="\[$(tput setaf 4)\]\u\[$(tput setaf 7)\]@\[$(tput setaf 1)\]\h\[$(tput setaf 7)\]:\[$(tput setaf 2)\]\w\[$(tput setaf 7)\](\A)\\$ \[$(tput sgr0)\]"
 export PS1="\[\e[00;34m\]\u\[\e[0m\]\[\e[00;37m\]@\[\e[0m\]\[\e[00;31m\]\h\[\e[0m\]\[\e[00;37m\]:\[\e[0m\]\[\e[00;32m\]\w\[\e[0m\]\[\e[00;37m\] [\[\e[0m\]\[\e[00;36m\]\A\[\e[0m\]\[\e[00;37m\]] \\$ \[\e[0m\]"
