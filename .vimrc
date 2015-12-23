@@ -8,10 +8,11 @@ set vb			"use a visual bell
 "set cindent		"use c style line indenting
 set autoindent	"turn on automatic indentation
 set linebreak  "turn on linebreaking so that lines are broken at word boundaries
-set guifont=Courier\ 10\ Pitch\ 14
+set guifont=Courier\ 10\ Pitch\ 12
 set hls        "turn on highlighting in search
 set showtabline=2 "always show the tabline, even if there is only one active tab
 set autochdir	"chdir into the dir of the current file when the buffer is activated
+set guioptions-=T  "remove toolbar
 
 "Use the torte colorscheme
 colorscheme torte 
@@ -29,9 +30,9 @@ vnoremap <Up> gk
 inoremap <Down> <C-o>gj
 inoremap <Up> <C-o>gk
 
-"Map the F12 key to save all the active buffers
-noremap! <F12> <ESC>:wa<CR>
-noremap <F12> <ESC>:wa<CR>
+"Map the F6 key to save all the active buffers
+noremap! <F6> <ESC>:wa<CR>
+noremap <F6> <ESC>:wa<CR>
 
 "Map the Ctrl-Tab combo to change the active tab to the next tab
 noremap! <C-Tab> <ESC>gt<CR>
